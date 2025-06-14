@@ -13,7 +13,7 @@ st.title("🌿 Weed Detection")
 # Load the YOLO model
 @st.cache_resource
 def load_model():
-    return YOLO("weed.pt")
+    return YOLO("/workspaces/Intership_aimers/weedDetectionProject/weed.pt")
 
 model = load_model()
 
